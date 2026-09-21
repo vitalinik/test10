@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 PID_FILE="/var/run/cmtr-app.pid"
 
