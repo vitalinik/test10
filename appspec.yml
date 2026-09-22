@@ -20,3 +20,8 @@ hooks:
     - location: scripts/start_application.sh
       timeout: 30
       runas: root
+
+  AfterAllowTraffic:
+    - location: scripts/trigger_rollback.sh
+      timeout: 240
+      runas: root
